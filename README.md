@@ -1,8 +1,14 @@
-# auth-graphql-starter
+# Simple Auth GraphQL App
 
-Starter project from a GraphQL course on Udemy.com - Section 3!
+## How to start?
 
-### Setup
+1. Provide env variables with .env file (DB_USERNAME, DB_PASSWORD, DB_NAME)
+2. run `npm run dev`
 
-- Run `npm install --legacy-peer-deps` in the root of the project to install dependencies
-- Access the application at `localhost:4000` in your browser
+## Features
+
+1. Implemented sign-in/sign-up and log-out with GraphQL and React.
+2. We use queries like fetching currentUser and mutations for sign-in/sign-up and log-out operations.
+3. A High Order Component in React (HOC) was implemented for Route protection.
+4. We use PassportJS on the backend and MongoDB for auth handling.
+
